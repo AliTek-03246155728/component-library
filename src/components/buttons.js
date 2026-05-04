@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-function Buttons({id,children, ...props}) { 
+function Button({id,children, ...props}) { 
   return(
     <div>
       <button id={id} {...props}>{children}</button>
@@ -8,4 +8,4 @@ function Buttons({id,children, ...props}) {
     )
 }
 
-export default Buttons;
+export default Button;
