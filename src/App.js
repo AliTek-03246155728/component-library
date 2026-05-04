@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Buttons  from "./components/buttons";
+import Button  from "./components/buttons";
 import Card from "./components/cards";
 import Modal from "./components/modals";
 
@@ -7,7 +7,7 @@ function App(){
   const [open, setOpen] = useState(false);
   return (
     <div id="main-div"> 
-    <button id="blue" onClick={() => setOpen(true)}>Check the Modal</button>
+    <Button id="blue" onClick={() => setOpen(true)}>Check the Modal</button>
       <Modal isOpen={open} onClose={() => setOpen(false)}>
         <Modal.Header>
           <h2>This is My Modal</h2>
