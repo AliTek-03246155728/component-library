@@ -4,12 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Project Title
 Project Description
-This is a React-based application designed to [write your project purpose here — e.g., a counter app, todo app, etc.].
 The project uses modern React concepts such as components, state management, and a responsive user interface.
 Installation Instructions
 Follow these steps to set up the project:
 Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/AliTek-03246155728/component-library-1.git
 Navigate to the project folder:
 cd your-repo-name
 Install dependencies:
